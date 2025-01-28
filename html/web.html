@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Basics Tutorial</title>
+    <link rel="stylesheet" href="stylish.css" />
+  </head>
+  <body>
+    <!-- Headings -->
+    <h1 class="main_heading">Welcome to HTML Basics Tutorial</h1>
+    <h2>Learning Web Development</h2>
+
+    <!-- Paragraphs and Text Formatting -->
+    <p id="main_para">
+      This is a <strong>bold text</strong> and this is an <em>italic text</em>.
+      <u>Underlined text</u> can also be created.
+    </p>
+
+    <!-- Lists -->
+    <h3>Types of Web Development</h3>
+    <ol>
+      <li>Frontend Development</li>
+      <li>
+        Backend Development
+        <ul>
+          <li>Node.js</li>
+          <li>Python</li>
+        </ul>
+      </li>
+      <li>Full Stack Development</li>
+    </ol>
+
+    <!-- Links -->
+    <h3>Useful Learning Resources</h3>
+    <a href="https://www.w3schools.com" target="_blank">Schools</a>
+    <br />
+    <a href="#bottom-section">Jump to Bottom</a>
+
+    <!-- Image -->
+    <h3>Web Development Image</h3>
+    <img
+      src="great.jpg"
+      alt="Web Development Placeholder"
+      width="400"
+      height="200"
+    />
+
+    <!-- Table -->
+
+    <!-- Form -->
+    <h3>Learning Feedback Form</h3>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label>Rate Your Experience:</label><br />
+      <input type="radio" name="experience" value="beginner" /> Beginner
+      <input type="radio" name="experience" value="intermediate" /> Intermediate
+      <input type="radio" name="experience" value="intermediate" /> Advanced
+      <br />
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments"></textarea>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <footer id="bottom-section">
+      <p>&copy; 2024 Web Development Tutorial</p>
+    </footer>
+  </body>
+</html>
